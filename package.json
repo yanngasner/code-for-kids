@@ -1,19 +1,18 @@
 {
-  "name": "code-for-kids",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.0.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "mongodb": "^4.1.3",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "eslint": "8.4.0",
-    "eslint-config-next": "12.0.7"
+    "eslint": "^8.4.0",
+    "eslint-config-next": "^12.0.7"
   }
 }
